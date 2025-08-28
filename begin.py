@@ -4,7 +4,7 @@ color = str(input("What's your favorite color?: "))
 
 print(f"Hello, {name}! Your favorite color is {color}")'''
 
-# Simple Quiz Game
+'''# Simple Quiz Game
     # Function Definition
 def quizzie(questions, choices, correct_answer):
     print(questions)
@@ -46,5 +46,7 @@ for question_data in questions_data:
         question_data["correct"]
     )
 print("Correct!" if is_correct else "Wrong!")
-print("-" * 30)
+print("-" * 30)'''
+
+
         
