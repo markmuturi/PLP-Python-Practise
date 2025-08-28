@@ -153,12 +153,23 @@ with open("output.txt", "w") as file:
     
 print("The file 'output.txt' has been created successfully!")'''
     
+'''class Vehicle:
+    def __init__(self, wheels):
+        self.wheels = wheels
+
+class Car(Vehicle):
+    pass
+
+car = Car(4)
+print(car.wheels)'''
+
+class Dog:
+    def speak(self):
+        return "Woof!"
     
-     
+class Cat:
+    def speak(self):
+        return "Meow!"
     
-
-         
-
-
-
-            
+for animal in [Dog(), Cat()]:
+    print(animal.speak())
