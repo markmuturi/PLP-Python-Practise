@@ -115,7 +115,23 @@ def setCreator(numbers1, numbers2):
 sets = setCreator(numbers1, numbers2) '''
 
     
-
+def large_power(base, exponent):
+    result = base ** exponent
+    
+    if result > 5000:
+        return True
+    else:
+        return False
+    
+def divisble_by_ten(num):
+    rem = num % 10
+    
+    if rem == 0:
+        return True
+    else:
+        return False
+    
+    
      
     
 
