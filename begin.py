@@ -115,7 +115,7 @@ def setCreator(numbers1, numbers2):
 sets = setCreator(numbers1, numbers2) '''
 
     
-def large_power(base, exponent):
+'''def large_power(base, exponent):
     result = base ** exponent
     
     if result > 5000:
@@ -129,7 +129,29 @@ def divisble_by_ten(num):
     if rem == 0:
         return True
     else:
-        return False
+        return False'''
+        
+# Reads a text file, processes the content and writes the result to a new file
+'''with open("input.txt", "w") as file:
+    file.write("Python is a powerful programming language\n")
+    file.write("Python is a powerful programming language\n")
+    file.write("Python is a powerful programming language\n")
+    file.write("Python is a powerful programming language\n")
+    file.write("Python is a powerful programming language\n")
+    
+with open("input.txt", "r") as file:
+    content = file.read()
+    
+words = content.split()
+word_count = len(words)
+
+content_upper = content.upper()
+
+with open("output.txt", "w") as file:
+    file.write(content_upper + "\n")
+    file.write(f"\nWord Count: {word_count}\n")
+    
+print("The file 'output.txt' has been created successfully!")'''
     
     
      
